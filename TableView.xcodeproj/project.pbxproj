@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8404278F2C0A891200B11CA8 /* ImagenDestinoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404278E2C0A891200B11CA8 /* ImagenDestinoViewController.swift */; };
+		840427912C0A8AC400B11CA8 /* PaisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840427902C0A8AC400B11CA8 /* PaisesViewController.swift */; };
+		840427932C0A8EA300B11CA8 /* DestinosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840427922C0A8EA300B11CA8 /* DestinosViewController.swift */; };
 		849FBF902BC4A9FB00531C86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FBF8F2BC4A9FB00531C86 /* AppDelegate.swift */; };
 		849FBF922BC4A9FB00531C86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FBF912BC4A9FB00531C86 /* SceneDelegate.swift */; };
 		849FBF942BC4A9FB00531C86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FBF932BC4A9FB00531C86 /* ViewController.swift */; };
@@ -15,9 +18,18 @@
 		849FBF9C2BC4A9FC00531C86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849FBF9A2BC4A9FC00531C86 /* LaunchScreen.storyboard */; };
 		849FBFA42BC4AB7800531C86 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FBFA32BC4AB7800531C86 /* ViewController2.swift */; };
 		849FBFA62BC4B72300531C86 /* RECURSOS in Resources */ = {isa = PBXBuildFile; fileRef = 849FBFA52BC4B72200531C86 /* RECURSOS */; };
+		84AC4E712C0B79AE00B90116 /* PaisesViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AC4E702C0B79AE00B90116 /* PaisesViewController2.swift */; };
+		84AC4E732C0B7D6300B90116 /* DestinosViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AC4E722C0B7D6300B90116 /* DestinosViewController2.swift */; };
+		84AC4E752C0B872B00B90116 /* tokio.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84AC4E742C0B872A00B90116 /* tokio.jpeg */; };
+		84AC4E772C0B873700B90116 /* nueva_york.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84AC4E762C0B873700B90116 /* nueva_york.jpeg */; };
+		84AC4E792C0B874000B90116 /* no_disponible.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC4E782C0B874000B90116 /* no_disponible.png */; };
+		84AC4E7B2C0B874700B90116 /* paris.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84AC4E7A2C0B874700B90116 /* paris.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8404278E2C0A891200B11CA8 /* ImagenDestinoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenDestinoViewController.swift; sourceTree = "<group>"; };
+		840427902C0A8AC400B11CA8 /* PaisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaisesViewController.swift; sourceTree = "<group>"; };
+		840427922C0A8EA300B11CA8 /* DestinosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinosViewController.swift; sourceTree = "<group>"; };
 		849FBF8C2BC4A9FB00531C86 /* TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849FBF8F2BC4A9FB00531C86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		849FBF912BC4A9FB00531C86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +40,12 @@
 		849FBF9D2BC4A9FC00531C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849FBFA32BC4AB7800531C86 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		849FBFA52BC4B72200531C86 /* RECURSOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RECURSOS; sourceTree = "<group>"; };
+		84AC4E702C0B79AE00B90116 /* PaisesViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaisesViewController2.swift; sourceTree = "<group>"; };
+		84AC4E722C0B7D6300B90116 /* DestinosViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinosViewController2.swift; sourceTree = "<group>"; };
+		84AC4E742C0B872A00B90116 /* tokio.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokio.jpeg; sourceTree = "<group>"; };
+		84AC4E762C0B873700B90116 /* nueva_york.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nueva_york.jpeg; sourceTree = "<group>"; };
+		84AC4E782C0B874000B90116 /* no_disponible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_disponible.png; sourceTree = "<group>"; };
+		84AC4E7A2C0B874700B90116 /* paris.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paris.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +82,18 @@
 				849FBF8F2BC4A9FB00531C86 /* AppDelegate.swift */,
 				849FBF912BC4A9FB00531C86 /* SceneDelegate.swift */,
 				849FBF932BC4A9FB00531C86 /* ViewController.swift */,
+				840427902C0A8AC400B11CA8 /* PaisesViewController.swift */,
+				84AC4E702C0B79AE00B90116 /* PaisesViewController2.swift */,
+				840427922C0A8EA300B11CA8 /* DestinosViewController.swift */,
+				84AC4E722C0B7D6300B90116 /* DestinosViewController2.swift */,
+				8404278E2C0A891200B11CA8 /* ImagenDestinoViewController.swift */,
 				849FBF952BC4A9FB00531C86 /* Main.storyboard */,
 				849FBFA32BC4AB7800531C86 /* ViewController2.swift */,
 				849FBF982BC4A9FC00531C86 /* Assets.xcassets */,
+				84AC4E7A2C0B874700B90116 /* paris.jpeg */,
+				84AC4E782C0B874000B90116 /* no_disponible.png */,
+				84AC4E762C0B873700B90116 /* nueva_york.jpeg */,
+				84AC4E742C0B872A00B90116 /* tokio.jpeg */,
 				849FBF9A2BC4A9FC00531C86 /* LaunchScreen.storyboard */,
 				849FBF9D2BC4A9FC00531C86 /* Info.plist */,
 			);
@@ -131,10 +158,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AC4E752C0B872B00B90116 /* tokio.jpeg in Resources */,
 				849FBF9C2BC4A9FC00531C86 /* LaunchScreen.storyboard in Resources */,
 				849FBF992BC4A9FC00531C86 /* Assets.xcassets in Resources */,
 				849FBFA62BC4B72300531C86 /* RECURSOS in Resources */,
+				84AC4E772C0B873700B90116 /* nueva_york.jpeg in Resources */,
+				84AC4E7B2C0B874700B90116 /* paris.jpeg in Resources */,
 				849FBF972BC4A9FB00531C86 /* Main.storyboard in Resources */,
+				84AC4E792C0B874000B90116 /* no_disponible.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +177,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				849FBF942BC4A9FB00531C86 /* ViewController.swift in Sources */,
+				840427932C0A8EA300B11CA8 /* DestinosViewController.swift in Sources */,
 				849FBFA42BC4AB7800531C86 /* ViewController2.swift in Sources */,
+				840427912C0A8AC400B11CA8 /* PaisesViewController.swift in Sources */,
+				84AC4E712C0B79AE00B90116 /* PaisesViewController2.swift in Sources */,
 				849FBF902BC4A9FB00531C86 /* AppDelegate.swift in Sources */,
 				849FBF922BC4A9FB00531C86 /* SceneDelegate.swift in Sources */,
+				84AC4E732C0B7D6300B90116 /* DestinosViewController2.swift in Sources */,
+				8404278F2C0A891200B11CA8 /* ImagenDestinoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
