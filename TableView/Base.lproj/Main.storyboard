@@ -132,40 +132,6 @@
             </objects>
             <point key="canvasLocation" x="1594" y="761"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="oKs-sH-6RI">
-            <objects>
-                <viewController id="99i-BF-SID" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="X9s-uw-Kqb">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="kdQ-iQ-b6U" style="IBUITableViewCellStyleDefault" id="pmi-gq-Ma2">
-                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pmi-gq-Ma2" id="JgY-7v-MtZ">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kdQ-iQ-b6U">
-                                            <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                    </tableView>
-                    <navigationItem key="navigationItem" id="h5j-Wf-aGk"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zK4-Il-Xdr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2351" y="761"/>
-        </scene>
         <!--Imagen Destino View Controller-->
         <scene sceneID="0VJ-E1-ghd">
             <objects>
@@ -174,39 +140,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nueva_york.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="6oG-o4-mNI">
-                                <rect key="frame" x="10" y="108" width="394" height="240"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="240" id="WkK-sg-PB9"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zona turistica" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NzE-Mf-UOK">
                                 <rect key="frame" x="155" y="378" width="104" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GEv-ws-S2u">
+                                <rect key="frame" x="10" y="118" width="394" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="BvG-X9-g3W"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="m0c-1n-ExX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6oG-o4-mNI" firstAttribute="leading" secondItem="m0c-1n-ExX" secondAttribute="leading" constant="10" id="3h8-tF-Sah"/>
-                            <constraint firstItem="6oG-o4-mNI" firstAttribute="centerX" secondItem="1tE-22-vzo" secondAttribute="centerX" id="6rf-2C-ZQt"/>
+                            <constraint firstItem="GEv-ws-S2u" firstAttribute="leading" secondItem="m0c-1n-ExX" secondAttribute="leading" constant="10" id="ECD-fa-ieM"/>
+                            <constraint firstItem="GEv-ws-S2u" firstAttribute="top" secondItem="m0c-1n-ExX" secondAttribute="top" constant="30" id="EDh-Hy-kkJ"/>
                             <constraint firstItem="NzE-Mf-UOK" firstAttribute="centerX" secondItem="1tE-22-vzo" secondAttribute="centerX" id="XzP-et-Dvt"/>
-                            <constraint firstItem="NzE-Mf-UOK" firstAttribute="top" secondItem="6oG-o4-mNI" secondAttribute="bottom" constant="30" id="dAp-bT-is7"/>
-                            <constraint firstItem="m0c-1n-ExX" firstAttribute="trailing" secondItem="6oG-o4-mNI" secondAttribute="trailing" constant="10" id="oT9-ZJ-F3J"/>
-                            <constraint firstItem="6oG-o4-mNI" firstAttribute="top" secondItem="m0c-1n-ExX" secondAttribute="top" constant="20" id="vTB-6d-y6y"/>
+                            <constraint firstItem="NzE-Mf-UOK" firstAttribute="top" secondItem="GEv-ws-S2u" secondAttribute="bottom" constant="20" id="gP5-yT-dSM"/>
+                            <constraint firstItem="m0c-1n-ExX" firstAttribute="trailing" secondItem="GEv-ws-S2u" secondAttribute="trailing" constant="10" id="qPP-Mn-tcA"/>
+                            <constraint firstItem="GEv-ws-S2u" firstAttribute="centerX" secondItem="1tE-22-vzo" secondAttribute="centerX" id="t0x-MJ-RAC"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="zzg-Pu-jdI"/>
                     <connections>
-                        <outlet property="imagenView" destination="6oG-o4-mNI" id="Jz2-7z-lOK"/>
+                        <outlet property="imagenView" destination="GEv-ws-S2u" id="kX4-Ix-ufV"/>
                         <outlet property="labelDestino" destination="NzE-Mf-UOK" id="UGI-47-h60"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g7h-ge-Ozs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2278" y="1470"/>
+            <point key="canvasLocation" x="2423" y="761"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="fyO-Ju-Lib">
@@ -228,7 +194,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="nueva_york.jpeg" width="275" height="183"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

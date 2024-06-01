@@ -40,12 +40,21 @@ class DestinosViewController2: UIViewController, UITableViewDelegate, UITableVie
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "mostrarImagen" {
+            let imagenVC = segue.destination as! ImagenDestinoViewController
+            let indice = sender as! Int
+            imagenVC.destino = destinos[indice]
+            imagenVC.paisSeleccionado = pais  // Añade esta línea
+        }
+    }
+    /*
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
             if segue.identifier == "mostrarImagen" {
                 let imagenVC = segue.destination as! ImagenDestinoViewController
                 let indice = sender as! Int
                 imagenVC.destino = destinos[indice]
             }
         }
-  
+  */
 
 }
